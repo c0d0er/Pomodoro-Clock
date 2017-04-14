@@ -1,4 +1,4 @@
-## Simon-Game
+## Pomodoro-Clock
 #### Check it out [here](https://c0d0er.github.io/Pomodoro-Clock/)
 
 #### Fulfill the below user stories:
