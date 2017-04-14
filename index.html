@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="pomstyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class='container-fluid text-center'>
+        <h1 class='title'>Pomodoro Clock</h1>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 break'>
+                    <h3>BREAK</h3>
+                    <button class='br1 small'><span class='minus'>-</span></button>
+                    <span class='time1'>1</span>
+                    <button class='br2 small'><span class='plus'>+</span></button>
+                </div>
+
+                <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 work'>
+                    <h3>WORK</h3>
+                    <button class='wo1 small'><span class='minus'>-</span></button>
+                    <span class='time2'>1</span>
+                    <button class='wo2 small'><span class='plus'>+</span></button>
+                </div>
+            </div>
+        </div>
+        <div class='timer'>
+            <div class='bigcir'>
+                <div class='fill'></div>
+                <h1 class='status'></h3>
+        <h1 class='start'>START WORK</h1>
+            </div>
+        </div>
+        <div>
+            <button class='last next'>
+            <span class="small1 glyphicon glyphicon-fast-forward"></span>
+                </button>
+            <button class='last reset'>
+            <span class="small1 glyphicon glyphicon-refresh"></span>
+        </button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="pomscript.js"></script>
+</body>
+
+</html>
